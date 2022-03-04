@@ -1,13 +1,21 @@
-* (
+* {
   margin: 0;
-  padding:);
+  padding: 0;
   box-sizing: border-box;
 }
+  
 
 body {
   font-family: "montserratt", sans-serif;
 }
 
 .app {
-  background-position: url("./assets/cold-bg.jpg");
+  background-image: url("./assets/cold-bg.jpg");
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+}
+
+main {
+  min-height: 100vh;
 }
